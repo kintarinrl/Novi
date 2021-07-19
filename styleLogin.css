@@ -1,0 +1,320 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Nav Stuff */
+.nav-item {
+  margin-right: 40px;
+}
+
+.navbar {
+  background: linear-gradient(270deg, #c11e38 0%, #220b34 100%);
+  height: auto;
+}
+
+/* Button Groups */
+.btn-login {
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 10px 32px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: ease-in-out 0.3s;
+}
+
+.btn-daftar {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.btn-see {
+  border: 2px solid #e13d8c;
+  background-color: transparent;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #e13d8c;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-order {
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 32px;
+  background-color: #e13d8c;
+  border-radius: 4px;
+  color: white;
+  width: 220px;
+  height: 55px;
+  border: none;
+  margin-bottom: 22px;
+  transition: ease-in-out 0.3s;
+}
+
+.btn-lihat {
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 10px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  width: 220px;
+  height: 55px;
+  border-radius: 4px;
+  margin-left: 15px;
+  transition: ease-in-out 0.3s;
+}
+
+.hidden-btn {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  /* -ms-transform: translate(-50%, -50%); */
+}
+
+.hidden-btn button {
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 32px;
+  background-color: #e13d8c;
+  border-radius: 4px;
+  color: white;
+  width: 220px;
+  height: 55px;
+  border: none;
+}
+
+/* Hover */
+
+.btn-lihat:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-order:hover {
+  background-color: #dd227c;
+}
+
+.btn-see:hover {
+  color: white;
+  background: #e13d8c;
+}
+
+.btn-login:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+/* Akhir Button Groups */
+.content {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 43.33%;
+  height: 944px;
+
+  background: linear-gradient(270deg, #c11e38 0%, #220b34 100%);
+}
+
+.hero {
+  padding-top: 100px;
+}
+
+.carousel {
+  padding-top: 0px;
+}
+
+.copywrite {
+  padding-top: 80px;
+}
+
+.mini-headline {
+  letter-spacing: 2.5px;
+  font-weight: 300;
+  color: #e1e1e1;
+}
+
+.content h2 {
+  font-weight: 700;
+  line-height: 72px;
+  font-size: 48px;
+}
+
+.copywrite img {
+  margin-right: -12px;
+  margin-bottom: 10px;
+}
+
+.carousel-item {
+  position: relative;
+  background: black;
+  margin-top: 80px;
+  border-radius: 4px;
+}
+
+.carousel-item img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.carousel-item:hover img {
+  opacity: 0.3;
+}
+
+.carousel-item:hover .hidden-btn {
+  opacity: 1;
+}
+
+.carousel-control-prev img {
+  margin-right: 220px;
+  display: inline-block;
+}
+
+.carousel-control-next img {
+  margin-left: 220px;
+  display: inline-block;
+}
+
+.list-film h2,
+.list-film a {
+  margin: 40px 0px 17px 0px;
+  color: #e13d8c;
+  font-weight: 700;
+}
+
+.trailer iframe {
+  margin-top: 100px;
+  margin-left: 349px;
+  margin-right: 349px;
+}
+
+@media (max-width: 576px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .btn-lihat {
+    margin-left: 0;
+  }
+
+  .navbar-brand {
+    margin-left: 3rem;
+  }
+}
+
+.trailer img {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.review-text p {
+  padding-left: 10px;
+}
+
+/* CSS Order Tiket */
+#Username {
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.screen {
+  width: 100%;
+  height: 20px;
+  background: #4388cc;
+  color: #fff;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.smallBox::before {
+  content: ".";
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin-right: 10px;
+}
+
+.greenBox::before {
+  content: "";
+  background: Green;
+}
+
+.redBox::before {
+  content: "";
+  background: Red;
+}
+
+.emptyBox::before {
+  content: "";
+  box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.3),
+    0px 1px 0px 0px rgba(255, 255, 255, 0.8);
+  background-color: #ccc;
+}
+
+.seats {
+  border: 1px solid red;
+  background: yellow;
+}
+
+.seatGap {
+  width: 40px;
+}
+
+.seatVGap {
+  height: 40px;
+}
+
+table {
+  text-align: center;
+}
+
+.Displaytable {
+  text-align: center;
+}
+
+.Displaytable td,
+.Displaytable th {
+  border: 1px solid;
+  text-align: left;
+}
+
+textarea {
+  border: none;
+  background: transparent;
+}
+
+input[type="checkbox"] {
+  width: 0px;
+  margin-right: 18px;
+}
+
+input[type="checkbox"]:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.3),
+    0px 1px 0px 0px rgba(255, 255, 255, 0.8);
+  background-color: #ccc;
+}
+
+input[type="checkbox"]:checked:before {
+  background-color: Green;
+  font-size: 15px;
+}
+
+.content {
+  height: 660px;
+  background: linear-gradient(270deg, #c11e38 0%, #220b34 100%);
+}

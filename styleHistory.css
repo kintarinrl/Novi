@@ -1,0 +1,216 @@
+body {
+    font-family: 'Inter', sans-serif!important;
+}
+
+/* Nav Stuff */
+.nav-item {
+    margin-right: 67px;
+}
+
+.navbar-brand {
+    margin-left: 120px;
+}
+
+.navbar {
+    background: linear-gradient(270deg, #C11E38 0%, #220B34 100%);
+    height: auto;
+}
+
+/* Button Groups */
+.btn-login {
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px 32px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: ease-in-out 0.3s;
+    margin-right: 120px;
+}
+
+.btn-daftar {
+    margin-right: 10px;
+    margin-left: -100px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-see {
+    border: 2px solid #E13D8C;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #E13D8C;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn-order {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 32px;
+    background-color: #E13D8C;
+    border-radius: 4px;
+    color: white;
+    width: 220px;
+    height: 55px;
+    border: none;
+    transition: ease-in-out 0.3s;
+    margin-top: 44px;
+    margin-bottom: 55px;
+}
+
+.btn-lihat {
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    width: 220px;
+    height: 55px;
+    display: inline-block;
+    margin-left: 42px;
+    border-radius: 4px;
+    transition: ease-in-out 0.3s;
+}
+
+.hidden-btn {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    /* -ms-transform: translate(-50%, -50%); */
+}
+
+.hidden-btn button {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 32px;
+    background-color: #E13D8C;
+    border-radius: 4px;
+    color: white;
+    width: 220px;
+    height: 55px;
+    border: none;
+}
+
+/* Hover */
+
+.btn-lihat:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-order:hover {
+    background-color: #DD227C;
+}
+
+.btn-see:hover {
+    color: white;
+    background: #E13D8C;
+}
+
+.btn-login:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+/* Akhir Button Groups */
+.history {
+    left: 0%;
+    right: 0%;
+    padding-top: 100px;
+    bottom: 43.33%;
+    height: 944px;
+
+    background: linear-gradient(270deg, #C11E38 0%, #220B34 100%);
+}
+.table {
+    background: white;
+}
+
+.fs-1 {
+    color: white;
+}
+
+.hero {
+    padding-top: 100px;
+}
+
+.carousel {
+    padding-top: 0px;
+}
+
+.copywrite {
+    padding-top: 80px;
+}
+
+.mini-headline {
+    letter-spacing: 2.5px;
+    font-weight: 300;
+    color: #e1e1e1;
+}
+
+.content h2 {
+    font-weight: 700;
+    line-height: 72px;
+    font-size: 48px;
+}
+
+.copywrite img {
+    margin-right: -12px;
+    margin-bottom: 10px;
+}
+
+.carousel-item {
+    position: relative;
+    background: black;
+    margin-top: 80px;
+    border-radius: 4px;
+}
+
+.carousel-item img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.carousel-item:hover img {
+    opacity: 0.3;
+}
+
+.carousel-item:hover .hidden-btn {
+    opacity: 1;
+}
+
+.carousel-control-prev img {
+    margin-right: 220px;
+    display: inline-block;
+}
+
+.carousel-control-next img {
+    margin-left: 220px;
+    display: inline-block;
+}
+
+.list-film h2,
+.list-film a {
+    margin: 40px 0px 17px 0px;
+    color: #E13D8C;
+    font-weight: 700;
+}
+
+.trailer iframe {
+    margin-top: 100px;
+    margin-left: 349px;
+    margin-right: 349px;
+}
